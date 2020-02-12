@@ -1,0 +1,100 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "8f410c2b-9431-4c41-a081-6adbdce259f8": {
+        "id": "8f410c2b-9431-4c41-a081-6adbdce259f8",
+        "parent": null,
+        "name": "centralInduu",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "74d5ae92-5595-40fa-9e49-37fabdf9ae94"
+        ],
+        "isRemovable": false,
+        "filePath": "centralInduu"
+      },
+      "74d5ae92-5595-40fa-9e49-37fabdf9ae94": {
+        "id": "74d5ae92-5595-40fa-9e49-37fabdf9ae94",
+        "parent": "8f410c2b-9431-4c41-a081-6adbdce259f8",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "centralInduu/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigcaCentral1indunilcalteststgingindany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "8f410c2b-9431-4c41-a081-6adbdce259f8",
+    "openFiles": [
+      "74d5ae92-5595-40fa-9e49-37fabdf9ae94"
+    ],
+    "currentFileId": "74d5ae92-5595-40fa-9e49-37fabdf9ae94",
+    "resources": {
+      "apigcaCentral1indunilcalteststgingindany": {
+        "name": "apigcaCentral1indunilcalteststgingindany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ca-central-1",
+          "apiMode": 0,
+          "apiName": "indunilcal",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "test/stging/ind",
+          "resourcePath": "/test/stging/ind",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "centralInduu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ca-central-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1581496786659
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "centralInduu",
+      "url": "https://github.com/Indunil1992/centralInduu"
+    }
+  }
+}
